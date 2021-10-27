@@ -14,6 +14,10 @@ def div():
     f = a/b
     return f
 
+def mod():
+    g=a%b
+    return g
+
 print("Please enter numbers below")
 a = int(input("Number 1:"))
 b = int(input("Number 2:"))
@@ -28,5 +32,11 @@ elif o=="-":
 elif o=="*":
     print(multi())
 
-else:
+elif o=="/":
     print(div())
+
+elif o=="%":
+    print(mod())
+    
+else:
+    print("enter valid operator")
