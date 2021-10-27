@@ -21,21 +21,21 @@ def mod():
 print("Please enter numbers below")
 a = int(input("Number 1:"))
 b = int(input("Number 2:"))
-o = input("operator:")
+o = input("Press 1 to add, 2 to subtract, 3 to multiply, 4 to divide, 5 to mod:")
 
-if o=="+":
+if o==1:
     print(add())
 
-elif o=="-":
+elif o==2:
     print(sub())
 
-elif o=="*":
+elif o==3:
     print(multi())
 
-elif o=="/":
+elif o==4:
     print(div())
 
-elif o=="%":
+elif o==5:
     print(mod())
     
 else:
