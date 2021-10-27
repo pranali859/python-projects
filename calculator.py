@@ -22,7 +22,7 @@ print("Please enter numbers below")
 a = int(input("Number 1:"))
 b = int(input("Number 2:"))
 print("Select the operation you want to perform")
-o = input("1 to add\n2 to subtract\n3 to multiply\n4 to divide\n5 to mod\n:")
+o = int(input("1 to add\n2 to subtract\n3 to multiply\n4 to divide\n5 to mod\n:"))
 
 if o==1:
     print(add())
