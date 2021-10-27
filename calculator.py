@@ -22,11 +22,11 @@ o = input("operator:")
 if o=="+":
     print(add())
 
-if o=="-":
+elif o=="-":
     print(sub())
 
-if o=="*":
+elif o=="*":
     print(multi())
 
-if o=="/":
+else:
     print(div())
