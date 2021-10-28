@@ -1,8 +1,8 @@
 print("Health Management System")
 print("Do you want to log or retrieve data?")
 i = int(input("Press 1 to log or 2 to retrieve:"))
-k = input("press D for diet or  E for exercise:")
-x = int(input("press\n 1 for Harry\n 2 for Rohan\n 3 for Hammad\n:"))
+k = input("Press D for diet or  E for exercise:")
+x = int(input("Press\n 1 for Harry\n 2 for Rohan\n 3 for Hammad\n:"))
 
 
 def getdate():
